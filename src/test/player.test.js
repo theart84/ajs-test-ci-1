@@ -1,4 +1,4 @@
-import checkHealth from "../js/player";
+import checkHealth from '../js/player';
 
 test('Передаем значение больше 50', () => {
   expect(checkHealth({ name: 'Маг', health: 90 })).toBe('healthy');
